@@ -33,10 +33,9 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors({
-  origin:['https://localhost:5173','https://ecommerce-seven-pearl-75.vercel.app'],
+  origin:'https://ecommerce-seven-pearl-75.vercel.app',
   credentials:true
 }));
-
 
 
 // routes middleware
